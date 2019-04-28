@@ -1,6 +1,6 @@
 # UFOSearch
 
-[!Truth](Images/Truth.png)
+![Truth](Images/Truth.png)
 
 ## Background
 
