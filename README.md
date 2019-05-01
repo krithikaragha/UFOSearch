@@ -1,4 +1,4 @@
-# UFOSearch
+# UFOSightings
 
 ![Truth](Images/Truth.png)
 
