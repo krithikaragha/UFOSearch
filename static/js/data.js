@@ -1,4 +1,5 @@
-var data = [{
+var data = [
+  {
     datetime: "1/1/2010",
     city: "benton",
     state: "ar",
@@ -194,7 +195,7 @@ var data = [{
     country: "us",
     shape: "disk",
     durationMinutes: "8 mins",
-    comments: "We experienced red disk over the falcon&#44 colorado sky within the first minutes of the new year."
+    comments: "We experienced red disk over the falcon colorado sky within the first minutes of the new year."
   },
   {
     datetime: "1/1/2010",
@@ -239,7 +240,7 @@ var data = [{
     country: "us",
     shape: "sphere",
     durationMinutes: "20 minutes",
-    comments: "Orange spheres in sky New Year&#39s Eve&#44 San Diego&#44 CA"
+    comments: "Orange spheres in sky New Year's Eve, San Diego CA"
   },
   {
     datetime: "1/1/2010",
@@ -878,7 +879,7 @@ var data = [{
     country: "us",
     shape: "triangle",
     durationMinutes: "5 to 10 sec.",
-    comments: "V shaped&#44 extreamly fast&#44 silent and the color was orange."
+    comments: "V shaped extremely fast & silent and the color was orange."
   },
   {
     datetime: "1/11/2010",
@@ -995,6 +996,6 @@ var data = [{
     country: "us",
     shape: "unknown",
     durationMinutes: "4 minutes",
-    comments: "Bright orange object&#44 rapid speed and direction changes .."
+    comments: "Bright orange object at rapid speed and direction changes .."
   }
 ];

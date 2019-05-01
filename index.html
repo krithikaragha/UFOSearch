@@ -37,17 +37,40 @@
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
                         <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2010">
                       </li>
+                      <button id="date-filter-btn" type="submit" class="btn btn-default">Filter by Date</button>
+                      <li class="filter list-group-item">
+                        <label for="city">Enter a City</label>
+                        <input class="form-control" id="city" type="text" placeholder="el cajon">
+                      </li>
+                      <button id="city-filter-btn" type="submit" class="btn btn-default">Filter by City</button>
+                      <li class="filter list-group-item">
+                        <label for="state">Enter a State</label>
+                        <input class="form-control" id="state" type="text" placeholder="ca">
+                      </li>
+                      <button id="state-filter-btn" type="submit" class="btn btn-default">Filter by State</button>
+                      <li class="filter list-group-item">
+                        <label for="country">Enter a Country</label>
+                        <input class="form-control" id="country" type="text" placeholder="us">
+                      </li>
+                      <button id="country-filter-btn" type="submit" class="btn btn-default">Filter by Country</button>
+                      <li class="filter list-group-item">
+                        <label for="shape">Enter a Shape</label>
+                        <input class="form-control" id="shape" type="text" placeholder="light">
+                      </li>
+                      <button id="shape-filter-btn" type="submit" class="btn btn-default">Filter by Shape</button>
                     </ul>
                   </div>
-                  <button id="filter-btn" type="submit" class="btn btn-default">Filter Table</button>
                 </form>
               </div>
             </div>
           </aside>
         </div>
         <div class="col-md-10">
+          <div id="error-msg">
+              
+          </div>
           <div id="table-area" class="">
             <table id="ufo-table" class="table table-striped">
               <thead>
@@ -68,7 +91,10 @@
       </div>
     </div>
     <footer class="footer">
-      <span class="bottom">UFO Sightings</span>
+      <center>
+          <br><br>
+          <span class="bottom">Copyright © 2019 UFO Sightings, USA Inc.</span>
+      </center>
     </footer>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
