@@ -122,7 +122,7 @@ cityFilterButton.on("click", function() {
     }
 });
 
-// Event handler for city filter button
+// Event handler for state filter button
 stateFilterButton.on("click", function() {
     // Prevent the page from refreshing
     d3.event.preventDefault();
@@ -168,7 +168,7 @@ stateFilterButton.on("click", function() {
     }
 });
 
-// Event handler for city filter button
+// Event handler for country filter button
 countryFilterButton.on("click", function() {
     // Prevent the page from refreshing
     d3.event.preventDefault();
@@ -214,7 +214,7 @@ countryFilterButton.on("click", function() {
     }
 });
 
-// Event handler for city filter button
+// Event handler for shape filter button
 shapeFilterButton.on("click", function() {
     // Prevent the page from refreshing
     d3.event.preventDefault();
