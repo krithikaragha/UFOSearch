@@ -47,8 +47,7 @@ dateFilterButton.on("click", function() {
 
             // Display a message stating no results were returned
             var error_div = d3.select("#error-msg");
-            var displayMsg = error_div.append("h4").text("Sorry, there were no results matching your query!");
-            console.log(displayMsg);
+            error_div.append("h4").text("Sorry, there were no results matching your query!");
 
             // Remove the table from the page
             d3.select("#ufo-table").remove();
@@ -94,8 +93,7 @@ cityFilterButton.on("click", function() {
 
             // Display a message stating no results were returned
             var error_div = d3.select("#error-msg");
-            var displayMsg = error_div.append("h4").text("Sorry, there were no results matching your query!");
-            console.log(displayMsg);
+            error_div.append("h4").text("Sorry, there were no results matching your query!");
 
             // Remove the table from the page
             d3.select("#ufo-table").remove();
@@ -141,8 +139,7 @@ stateFilterButton.on("click", function() {
 
             // Display a message stating no results were returned
             var error_div = d3.select("#error-msg");
-            var displayMsg = error_div.append("h4").text("Sorry, there were no results matching your query!");
-            console.log(displayMsg);
+            error_div.append("h4").text("Sorry, there were no results matching your query!");
 
             // Remove the table from the page
             d3.select("#ufo-table").remove();
@@ -188,8 +185,7 @@ countryFilterButton.on("click", function() {
 
             // Display a message stating no results were returned
             var error_div = d3.select("#error-msg");
-            var displayMsg = error_div.append("h4").text("Sorry, there were no results matching your query!");
-            console.log(displayMsg);
+            error_div.append("h4").text("Sorry, there were no results matching your query!");
 
             // Remove the table from the page
             d3.select("#ufo-table").remove();
@@ -235,8 +231,7 @@ shapeFilterButton.on("click", function() {
 
             // Display a message stating no results were returned
             var error_div = d3.select("#error-msg");
-            var displayMsg = error_div.append("h4").text("Sorry, there were no results matching your query!");
-            console.log(displayMsg);
+            error_div.append("h4").text("Sorry, there were no results matching your query!");
 
             // Remove the table from the page
             d3.select("#ufo-table").remove();
