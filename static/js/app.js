@@ -44,11 +44,11 @@ dateFilterButton.on("click", function() {
 
         // If there are no filtered results returned
         if (filteredData === undefined || filteredData.length == 0) {
-            console.log("Empty list");
 
             // Display a message stating no results were returned
             var error_div = d3.select("#error-msg");
             var displayMsg = error_div.append("h4").text("Sorry, there were no results matching your query!");
+            console.log(displayMsg);
 
             // Remove the table from the page
             d3.select("#ufo-table").remove();
@@ -91,11 +91,11 @@ cityFilterButton.on("click", function() {
 
         // If there are no filtered results returned
         if (filteredData === undefined || filteredData.length == 0) {
-            console.log("Empty list");
 
             // Display a message stating no results were returned
             var error_div = d3.select("#error-msg");
             var displayMsg = error_div.append("h4").text("Sorry, there were no results matching your query!");
+            console.log(displayMsg);
 
             // Remove the table from the page
             d3.select("#ufo-table").remove();
@@ -138,11 +138,11 @@ stateFilterButton.on("click", function() {
 
         // If there are no filtered results returned
         if (filteredData === undefined || filteredData.length == 0) {
-            console.log("Empty list");
 
             // Display a message stating no results were returned
             var error_div = d3.select("#error-msg");
             var displayMsg = error_div.append("h4").text("Sorry, there were no results matching your query!");
+            console.log(displayMsg);
 
             // Remove the table from the page
             d3.select("#ufo-table").remove();
@@ -185,11 +185,11 @@ countryFilterButton.on("click", function() {
 
         // If there are no filtered results returned
         if (filteredData === undefined || filteredData.length == 0) {
-            console.log("Empty list");
 
             // Display a message stating no results were returned
             var error_div = d3.select("#error-msg");
             var displayMsg = error_div.append("h4").text("Sorry, there were no results matching your query!");
+            console.log(displayMsg);
 
             // Remove the table from the page
             d3.select("#ufo-table").remove();
@@ -232,11 +232,11 @@ shapeFilterButton.on("click", function() {
 
         // If there are no filtered results returned
         if (filteredData === undefined || filteredData.length == 0) {
-            console.log("Empty list");
 
             // Display a message stating no results were returned
             var error_div = d3.select("#error-msg");
             var displayMsg = error_div.append("h4").text("Sorry, there were no results matching your query!");
+            console.log(displayMsg);
 
             // Remove the table from the page
             d3.select("#ufo-table").remove();
